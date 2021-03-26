@@ -85,8 +85,7 @@ overview please visit the official project page:
 ![GitHub repo size](https://img.shields.io/github/repo-size/bkimminich/juice-shop.svg)
 
 1. Install [node.js](#nodejs-version-compatibility)
-2. Run `git clone https://github.com/bkimminich/juice-shop.git` (or
-   clone [your own fork](https://github.com/bkimminich/juice-shop/fork)
+2. Run `git clone https://github.com/AnshVaid4/Juice-Shop.git` 
    of the repository)
 3. Go into the cloned folder with `cd juice-shop`
 4. Run `npm install` (only has to be done before first start or when you
@@ -96,7 +95,7 @@ overview please visit the official project page:
 
 ### Packaged Distributions
 
-[![GitHub release](https://img.shields.io/github/downloads/bkimminich/juice-shop/total.svg)](https://github.com/bkimminich/juice-shop/releases/latest)
+[![GitHub release](https://img.shields.io/github/downloads/bkimminich/juice-shop/total.svg)](https://github.com/AnshVaid4/Juice-Shop.git)
 [![SourceForge](https://img.shields.io/sourceforge/dm/juice-shop?label=sourceforge%20downloads)](https://sourceforge.net/projects/juice-shop/)
 [![SourceForge](https://img.shields.io/sourceforge/dt/juice-shop?label=sourceforge%20downloads)](https://sourceforge.net/projects/juice-shop/)
 
@@ -104,7 +103,7 @@ overview please visit the official project page:
    Windows, MacOS or Linux machine
 2. Download `juice-shop-<version>_<node-version>_<os>_x64.zip` (or
    `.tgz`) attached to
-   [latest release](https://github.com/bkimminich/juice-shop/releases/latest)
+   [latest release](https://github.com/AnshVaid4/Juice-Shop.git)
 3. Unpack and `cd` into the unpacked folder
 4. Run `npm start`
 5. Browse to <http://localhost:3000>
