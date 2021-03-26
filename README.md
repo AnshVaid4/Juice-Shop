@@ -122,8 +122,8 @@ overview please visit the official project page:
 "Get your own version badge on microbadger.com")
 
 1. Install [Docker](https://www.docker.com)
-2. Run `docker pull bkimminich/juice-shop`
-3. Run `docker run --rm -p 3000:3000 bkimminich/juice-shop`
+2. Run `docker pull AnshVaid4/Juice-Shop`
+3. Run `docker run --rm -p 3000:3000 AnshVaid4/Juice-Shop`
 4. Browse to <http://localhost:3000> (on macOS and Windows browse to
    <http://192.168.99.100:3000> if you are using docker-machine instead
    of the native docker installation)
@@ -132,7 +132,7 @@ overview please visit the official project page:
 
 1. Install [Vagrant](https://www.vagrantup.com/downloads.html) and
    [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
-2. Run `git clone https://github.com/bkimminich/juice-shop.git` (or
+2. Run `git clone https://github.com/AnshVaid4/Juice-Shop.git` (or
    clone [your own fork](https://github.com/bkimminich/juice-shop/fork)
    of the repository)
 3. Run `cd vagrant && vagrant up`
