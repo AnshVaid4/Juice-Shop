@@ -1,5 +1,5 @@
 # ![Juice Shop Logo](https://raw.githubusercontent.com/bkimminich/juice-shop/master/frontend/src/assets/public/images/JuiceShop_Logo_100px.png) OWASP Juice Shop
-
+###### This is a project created by OWASP, you can refer the same from their website.
 [![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://owasp.org/projects/#sec-flagships)
 [![GitHub release](https://img.shields.io/github/release/bkimminich/juice-shop.svg)](https://github.com/bkimminich/juice-shop/releases/latest)
 [![Twitter Follow](https://img.shields.io/twitter/follow/owasp_juiceshop.svg?style=social&label=Follow)](https://twitter.com/owasp_juiceshop)
@@ -180,7 +180,7 @@ docker run -d -p 80:3000 AnshVaid4/Juice-Shop
    note of the `EXTERNAL_IP` provided in the output.
 
 ```
-gcloud compute instances create-with-container owasp-juice-shop-app --container-image bkimminich/juice-shop
+gcloud compute instances create-with-container owasp-juice-shop-app --container-image AnshVaid4/Juice-Shop
 ```
 
 3. Create a firewall rule that allows inbound traffic to port 3000
