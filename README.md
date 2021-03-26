@@ -263,7 +263,6 @@ and is available **for free** in PDF, Kindle and ePub format on LeanPub.
 You can also
 [browse the full content online](https://pwning.owasp-juice.shop)!
 
-[![Pwning OWASP Juice Shop Cover](https://raw.githubusercontent.com/AnshVaid4/pwning-juice-shop/master/cover_small.jpg)](https://leanpub.com/juice-shop)
 
 ## Contributing
 
