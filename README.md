@@ -1,5 +1,5 @@
 # ![Juice Shop Logo](https://raw.githubusercontent.com/bkimminich/juice-shop/master/frontend/src/assets/public/images/JuiceShop_Logo_100px.png) OWASP Juice Shop
-###### This is a project created by OWASP, you can refer the same from their website.
+###### This is a project created by OWASP, you can refer the same from their website or <a href="https://github.com/OWASP/www-project-juice-shop"> GitHub Repository</a>
 [![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://owasp.org/projects/#sec-flagships)
 [![GitHub release](https://img.shields.io/github/release/bkimminich/juice-shop.svg)](https://github.com/bkimminich/juice-shop/releases/latest)
 [![Twitter Follow](https://img.shields.io/twitter/follow/owasp_juiceshop.svg?style=social&label=Follow)](https://twitter.com/owasp_juiceshop)
@@ -324,18 +324,6 @@ more about donations and how they are used here:
 
 <https://pwning.owasp-juice.shop/part3/donations.html>
 
-## Contributors
-
-The OWASP Juice Shop core project team are:
-
-- [Björn Kimminich](https://github.com/bkimminich) aka `bkimminich`
-  ([Project Leader](https://www.owasp.org/index.php/Projects/Project_Leader_Responsibilities))
-  [![Keybase PGP](https://img.shields.io/keybase/pgp/bkimminich)](https://keybase.io/bkimminich)
-- [Jannik Hollenbach](https://github.com/J12934) aka `J12934`
-- [Timo Pagel](https://github.com/wurstbrot) aka `wurstbrot`
-
-For a list of all contributors to the OWASP Juice Shop please visit our
-[HALL_OF_FAME.md](HALL_OF_FAME.md).
 
 ## Licensing
 
