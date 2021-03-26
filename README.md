@@ -114,11 +114,11 @@ overview please visit the official project page:
 
 ### Docker Container
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/bkimminich/juice-shop.svg)](https://hub.docker.com/r/bkimminich/juice-shop)
-![Docker Stars](https://img.shields.io/docker/stars/bkimminich/juice-shop.svg)
-[![](https://images.microbadger.com/badges/image/bkimminich/juice-shop.svg)](https://microbadger.com/images/bkimminich/juice-shop
+[![Docker Pulls](https://img.shields.io/docker/pulls/AnshVaid4/Juice-Shop.svg)](https://hub.docker.com/r/AnshVaid4/Juice-Shop)
+![Docker Stars](https://img.shields.io/docker/stars/AnshVaid4/Juice-Shop.svg)
+[![](https://images.microbadger.com/badges/imageAnshVaid4/Juice-Shop.svg)](https://microbadger.com/images/AnshVaid4/Juice-Shop
 "Get your own image badge on microbadger.com")
-[![](https://images.microbadger.com/badges/version/bkimminich/juice-shop.svg)](https://microbadger.com/images/bkimminich/juice-shop
+[![](https://images.microbadger.com/badges/version/AnshVaid4/Juice-Shop.svg)](https://microbadger.com/images/AnshVaid4/Juice-Shop
 "Get your own version badge on microbadger.com")
 
 1. Install [Docker](https://www.docker.com)
@@ -132,9 +132,7 @@ overview please visit the official project page:
 
 1. Install [Vagrant](https://www.vagrantup.com/downloads.html) and
    [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
-2. Run `git clone https://github.com/AnshVaid4/Juice-Shop.git` (or
-   clone [your own fork](https://github.com/bkimminich/juice-shop/fork)
-   of the repository)
+2. Run `git clone https://github.com/AnshVaid4/Juice-Shop.git` 
 3. Run `cd vagrant && vagrant up`
 4. Browse to [192.168.33.10:3000](http://192.168.33.10:3000)
 
@@ -155,8 +153,8 @@ overview please visit the official project page:
 yum update -y
 yum install -y docker
 service docker start
-docker pull bkimminich/juice-shop
-docker run -d -p 80:3000 bkimminich/juice-shop
+docker pull AnshVaid4/Juice-Shop
+docker run -d -p 80:3000 AnshVaid4/Juice-Shop
 ```
 
 ### Azure Container Instance
@@ -169,7 +167,7 @@ docker run -d -p 80:3000 bkimminich/juice-shop
    name> --location <location name, e.g. "centralus">`
 3. Create a new container by running `az container create
    --resource-group <group name> --name <container name> --image
-   bkimminich/juice-shop --dns-name-label <dns name label> --ports 3000
+   AnshVaid4/Juice-Shop --dns-name-label <dns name label> --ports 3000
    --ip-address public`
 4. Your container will be available at `http://<dns name
    label>.<location name>.azurecontainer.io:3000`
@@ -207,8 +205,8 @@ Feel free to have a look at the latest version of OWASP Juice Shop:
 
 ### Node.js version compatibility
 
-![GitHub package.json dynamic](https://img.shields.io/github/package-json/cpu/bkimminich/juice-shop)
-![GitHub package.json dynamic](https://img.shields.io/github/package-json/os/bkimminich/juice-shop)
+![GitHub package.json dynamic](https://img.shields.io/github/package-json/cpu/AnshVaid4/Juice-Shop)
+![GitHub package.json dynamic](https://img.shields.io/github/package-json/os/AnshVaid4/Juice-Shop)
 
 OWASP Juice Shop officially supports the following versions of
 [node.js](http://nodejs.org) in line with the official
@@ -233,14 +231,13 @@ Please make sure you stay up to date with your chosen version.
 
 ### Troubleshooting
 
-[![Gitter](http://img.shields.io/badge/gitter-join%20chat-1dce73.svg)](https://gitter.im/bkimminich/juice-shop)
+[![Gitter](http://img.shields.io/badge/gitter-join%20chat-1dce73.svg)](https://gitter.im/AnshVaid4/Juice-Shop)
 
 If you need help with the application setup please check our
 [our existing _Troubleshooting_](https://pwning.owasp-juice.shop/appendix/troubleshooting.html)
 guide. If this does not solve your issue please post your specific
 problem or question in the
-[Gitter Chat](https://gitter.im/bkimminich/juice-shop) where community
-members can best try to help you.
+
 
 :stop_sign: **Please avoid opening GitHub issues for support requests or
 questions!**
@@ -266,15 +263,15 @@ and is available **for free** in PDF, Kindle and ePub format on LeanPub.
 You can also
 [browse the full content online](https://pwning.owasp-juice.shop)!
 
-[![Pwning OWASP Juice Shop Cover](https://raw.githubusercontent.com/bkimminich/pwning-juice-shop/master/cover_small.jpg)](https://leanpub.com/juice-shop)
+[![Pwning OWASP Juice Shop Cover](https://raw.githubusercontent.com/AnshVaid4/pwning-juice-shop/master/cover_small.jpg)](https://leanpub.com/juice-shop)
 
 ## Contributing
 
-[![GitHub contributors](https://img.shields.io/github/contributors/bkimminich/juice-shop.svg)](https://github.com/bkimminich/juice-shop/graphs/contributors)
+[![GitHub contributors](https://img.shields.io/github/contributors/AnshVaid4/Juice-Shop.svg)](https://github.com/AnshVaid4/Juice-Shop/graphs/contributors)
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 [![Crowdin](https://d322cqt584bo4o.cloudfront.net/owasp-juice-shop/localized.svg)](https://crowdin.com/project/owasp-juice-shop)
-![GitHub issues by-label](https://img.shields.io/github/issues/bkimminich/juice-shop/help%20wanted.svg)
-![GitHub issues by-label](https://img.shields.io/github/issues/bkimminich/juice-shop/good%20first%20issue.svg)
+![GitHub issues by-label](https://img.shields.io/github/issues/AnshVaid4/Juice-Shop/help%20wanted.svg)
+![GitHub issues by-label](https://img.shields.io/github/issues/AnshVaid4/Juice-Shop/good%20first%20issue.svg)
 
 We are always happy to get new contributors on board! Please check
 [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to
